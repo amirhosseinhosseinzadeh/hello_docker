@@ -1,0 +1,6 @@
+version: '3.9'
+services: 
+  hello_docker_app:
+    build: .
+    environment:
+      SERVE_STATUS: "loop"
